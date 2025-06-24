@@ -34,7 +34,7 @@ body h1{
 }
 
 
-header strong{
+.et{
     color: darkgreen;
 }
 
@@ -47,7 +47,7 @@ header strong{
 }
 
 header{
-    background-color: black
+    background-color: black;
 }
 
 #system{
@@ -100,6 +100,12 @@ legend{
 }
 .thb{
     width: 40ch;
+    text-align: center;
+    margin: 20px 0;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .hero {
@@ -215,9 +221,38 @@ img, video{
     margin-bottom: 20px;
 }
 section{
+    max-width: 900px;
     margin-top: 40px;
     padding: 20px;
     background-color: #1f2833;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(102, 252, 241, 0.2);
+}
+header{
+    background: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+nav{
+    background: #292961;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+nav a:hover{
+    background-color: #4444aa;
+    border-radius: 5px;
+}
+ol{
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 40px;
 }
