@@ -133,7 +133,7 @@ legend{
 
 .cover{
     width: 100%;
-    height: auto
+    height: auto;
     background-image: url('img/spacesuit-1848839_1920.jpg');
     background-size: cover;
     background-attachment: scroll;
