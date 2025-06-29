@@ -296,14 +296,21 @@ ol{
 
         .cover {
             height: auto;
-            padding:30px 15px;
+            padding: 20px;
+            background-size: cover;
+            background-position: center;
         }
-        .cover h1 {
-            font-size:1.5rem;
-            margin-bottom: 10px;
+
+        nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
         }
-        .cover p {
-            font-size: 1rem;
+        nav a{
+            display: block;
+            margin: 5px 0;
+            font-size: 16px;
         }
         
     }
